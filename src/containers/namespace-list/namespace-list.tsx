@@ -160,7 +160,7 @@ export class NamespaceList extends React.Component<IProps, IState> {
       : t`Search all ${titleLowerCase}`;
 
     return (
-      <div className='namespace-page'>
+      <div className='hub-namespace-page'>
         <NamespaceModal
           isOpen={this.state.isModalOpen}
           toggleModal={this.handleModalToggle}
